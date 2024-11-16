@@ -1,0 +1,55 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('img/bg2.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+header {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(51, 51, 51, 0.8);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+.content {
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.751);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.benefits {
+    margin-top: 20px;
+}
+
+.benefits h2 {
+    font-size: 24px;
+}
+
+.benefits ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}

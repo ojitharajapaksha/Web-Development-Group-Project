@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <title>Team Members</title>
+    <link rel="stylesheet" href="splash.css">
+    <!-- Refresh the page within 4 seconds and display the preloader and open the home page -->
+    <meta http-equiv="refresh" content="4; URL=#">
+</head>
+
+<body>
+    
+      <!-- Preloader -->
+    <div id="preloader" style="display: none;"></div>
+    
+    <!-- Splash Screen -->
+    <div id="splash">
+    <h2>Our mission is to educate individuals and organizations about the importance of <br>sustainable industry, innovation and infrastructure brand build a vibrant future. </h2>
+    <h1>Web Development Team Members</h1>
+    
+    <div class="main-container">
+        <div class="table-container">
+            <table>
+                
+                <tr>
+                    <th>Student Role</th>
+                    <th>Student Name</th>
+                    <th>IIT ID</th>
+                    <th>Westminster ID</th>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>Ojitha Rajapaksha</td>
+                    <td>20230522</td>
+                    <td>w2053165</td>
+                </tr>
+                <tr>
+                    <td>02</td>
+                    <td>Nikitha Silva</td>
+                    <td>20221615</td>
+                    <td>w2052234</td>
+                </tr>
+                <tr>
+                    <td>03</td>
+                    <td>Stephan Perera</td>
+                    <td>20221631</td>
+                    <td>w2052236</td>
+                </tr>
+                <tr>
+                    <td>04</td>
+                    <td>Pahandi Withanaachchi</td>
+                    <td>20221686</td>
+                    <td>w2053150</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+    <script>
+    
+        // Java script to hide preloader after 2 seconds
+        var loader = document.getElementById("preloader");
+        var splash = document.getElementById("splash");
+
+        
+        setTimeout(function(){
+            loader.style.display = "block";
+            splash.style.display = "none";
+        }, 2000);
+    </script>
+
+</body>
+</html>
